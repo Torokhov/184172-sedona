@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Олег Торохов](https://up.htmlacademy.ru/htmlcss/13/user/184172).
-* Наставник: `Неизвестно`.
+* Наставник: [Антон Попов](https://htmlacademy.ru/profile/joker).
 
 ---
 
