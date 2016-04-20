@@ -52,12 +52,10 @@
                 </section>
                 <section class="price">
                     <h3>Стоимость в сутки(Р):</h3>
-                    <table>
-                        <tr>
-                            <td>от 0</td>
-                            <td>до 3000</td>
-                        </tr>
-                    </table>
+                    <label for="start-price">от</label> 
+                    <input type="text" id="start-price" name="start-price" value="0">
+                    <label for="end-price">до</label> 
+                    <input type="text" id="end-price" name="end-price" value="3000">
                     <div class="range-controls">
                         <div class="scale"><div class="bar"></div></div>
                         <div class="toggle min-toggle"></div>
@@ -71,10 +69,10 @@
                     <b>Найдено: 3</b>
                     <span>сортировка:</span>
                     <a href="#">По цене</a>
-                    <a href="#">По типу</a></li>
-                    <a href="#">По рейтингу</a></li>
+                    <a href="#">По типу</a>
+                    <a href="#">По рейтингу</a>
                     <a class="arrow arrow-up" href="#">По возрастанию</a>
-                    <a class="arrow arrow-down" href="#">По убыванию</a>
+                    <a class="arrow arrow-down active" href="#">По убыванию</a>
                 </div>
                 <article class="housing-result">
                     <figure>
@@ -82,17 +80,13 @@
                     </figure>
                     <div class="housing-describe">
                         <h2>Amara resort & SPA</h2>
-                        <table>
-                            <tr>
-                                <td>Гостиница</td>
-                                <td>от 3500</td>
-                            </tr>
-                        </table>
+                        <div class="housing-type">Гостиница</div>
+                        <div class="housing-price">от 3500</div>
                         <a class="more" href="#">Подробнее</a>
                         <a class="reserve" href="#">Забронировать</a>
                     </div>
                     <div class="rate">
-                        <span>Рейтинг: 8,5</span>
+                        Рейтинг: 8,5
                     </div>
                 </article>
                 <article class="housing-result">
@@ -101,17 +95,13 @@
                     </figure>
                     <div class="housing-describe">
                         <h2>Desert quail inn</h2>
-                        <table>
-                            <tr>
-                                <td>Мотель</td>
-                                <td>от 2000</td>
-                            </tr>
-                        </table>
+                            <div class="housing-type">Мотель</div>
+                            <div class="housing-price">от 2000</div>
                         <a class="more" href="#">Подробнее</a>
                         <a class="reserve" href="#">Забронировать</a>
                     </div>
                     <div class="rate">
-                        <span>Рейтинг: 8,9</span>
+                        Рейтинг: 8,9
                     </div>
                 </article>
                 <article class="housing-result">
@@ -120,17 +110,13 @@
                     </figure>
                     <div class="housing-describe">
                         <h2>Villas at poco diablo</h2>
-                        <table>
-                            <tr>
-                                <td>Апартаменты</td>
-                                <td>от 4000</td>
-                            </tr>
-                        </table>
+                            <div class="housing-type">Апартаменты</div>
+                            <div class="housing-price">от 4000</div>
                         <a class="more" href="#">Подробнее</a>
                         <a class="reserve" href="#">Забронировать</a>
                     </div>
                     <div class="rate">
-                        <span>Рейтинг: 9,2</span>
+                        Рейтинг: 9,2
                     </div>
                 </article>
             </section>
@@ -147,7 +133,7 @@
                 </section>
                 <section class="footer-copyright">
                     Website by
-                    <a class="logo" href="https://htmlacademy.ru"><img src="img/htmlacademy-logo.png" height="39" width="113" alt="htmlacademy.ru logo"</a>
+                    <a class="logo" href="https://htmlacademy.ru">HTML Academy</a>
                 </section>
             </div>
         </footer>
