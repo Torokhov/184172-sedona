@@ -1,6 +1,6 @@
 body {
     color: #b3b3b3;
-    font-family: "PTSans", serif;
+    font-family: "PT Sans", "Arial" sans-serif;
     font-size: 14px;
     font-weight: normal;
     line-height: 26px;
@@ -9,27 +9,17 @@ body {
 
 h2 {
     color: black;
-    font-family: "PTSans", serif;
     font-size: 21px;
     font-weight: bold;
-    line-height: 26px;
-    text-transform: uppercase;
 }
 
 h3 {
     color: black;
-    font-family: "PTSans", serif;
     font-size: 21px;
     font-weight: bold;
-    line-height: 26px;
-    text-transform: uppercase;
 }
 
 h4 {
     color: #b3b3b3;
-    font-family: "PTSans", serif;
     font-size: 14px;
-    font-weight: normal;
-    line-height: 26px;
-    text-transform: uppercase;
 }
