@@ -7,36 +7,38 @@
     </head>
     <body>
         <header class="main-header">
-            <div class="container preview">
-                <a class="logo" href="#">Седона</a>
-                <nav>
-                    <ul>
-                        <li>
-                            <a class="active" href="index.html">Информация</a>
-                        </li>
-                        <li>
-                            <a href="foto.html">Фото и видео</a>
-                        </li>
-                        <li>
-                            <a href="map.html">Карта штата</a>
-                        </li>
-                        <li>
-                            <a href="sedona-hotels.html">Гостиницы</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a class="active" href="index.html">Информация</a>
+                    </li>
+                    <li>
+                        <a href="foto.html">Фото и видео</a>
+                    </li>
+                    <li>
+                        <a class="logo" href="#">Седона</a>
+                    </li>
+                    <li>
+                        <a href="map.html">Карта штата</a>
+                    </li>
+                    <li>
+                        <a href="sedona-hotels.html">Гостиницы</a>
+                    </li>
+                </ul>
+            </nav>
             <h2>Седона-небольшой городок в Аризоне, заслуживающий большего!</h2>
             <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
         </header>
         <main class="container">
             <section class="reasons">
-                <div class="reasons-main reasons-illustrate">
-                    <h3>Настоящий городок</h3>
-                    <h4>№1</h4>
-                    <p>Седона-не аттракцион для туристов, там течет своя жизнь</p>
+                <div class="reasons-illustrate">
+                    <div class="reasons-main">
+                        <h3>Настоящий городок</h3>
+                        <h4>№1</h4>
+                        <p>Седона-не аттракцион для туристов, там течет своя жизнь</p>
+                    </div>
                     <figure class="reasons-picture">
-                        <img src="img/housing.jpg" height="256" width="800" alt="Фотография города">
+                        <img src="img/housing.jpg" height="255" width="800" alt="Фотография города">
                     </figure>
                 </div>
                 <div class="reasons-feature">
@@ -51,13 +53,14 @@
                     <h3>Сувениры</h3>
                     <p>Не только китайского, но и местного производства!</p>
                 </div>
-                <div class="reasons-main reasons-illustrate">
+                <div class="reasons-illustrate">
                     <figure class="reasons-picture">
-                        <img src="img/devilbridge.jpg" height="256" width="800" alt="Фотография моста">
+                        <img src="img/devilbridge.jpg" height="255" width="800" alt="Фотография моста">
                     </figure>
-                    <h3>Там есть мост дьявола</h3>
-                    <h4>№2</h4>
-                    <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+                    <div class="reasons-main">                     <h3>Там есть мост дьявола</h3>
+                        <h4>№2</h4>
+                        <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+                    </div>
                 </div>
                 <div class="reasons-main">
                     <h3>Небольшая площадь</h3>
@@ -77,14 +80,16 @@
             </section>
             <section class="search">
                 <h2>Заинтересовались?</h2>
-                <p>Укажите предполагаемые даты поездки, и мы покажем лучшие предложения гостиниц в Седоне</p>
+                <p>Укажите предполагаемые даты поездки,
+                    <br>
+                    и мы покажем лучшие предложения гостиниц в Седоне</p>
                 <a class="search-btn" href="#">Поиск гостиницы в Седоне</a>
                 <form class="search-form" action="#" method="get">
-                    <label for="date_arrival">Дата заезда</label>
-                    <input class="date" type="text" name="date_arrival" id="date_arrival" value="24 апреля 2016">
+                    <label for="date_arrival">Дата заезда:</label>
+                    <input class="date-arrival" type="text" name="date_arrival" id="date_arrival" value="24 апреля 2016">
                     <div class="date-arrival-icon"></div>
                     
-                    <label for="date_depart">Дата выезда</label>
+                    <label for="date_depart">Дата выезда:</label>
                     <input class="date-depart" type="text" name="date_depart" id="date_depart" value="4 июля 2016">
                     <div class="date-depart-icon"></div>
                     
@@ -100,24 +105,22 @@
                     
                     <input class="send-btn" type="submit" value="Найти">
                 </form>
-                <div><img src="img/map.jpg" height="594" width="1200" alt="Карта"></div>
+                <div class="map"><img src="img/map.jpg" height="594" width="1200" alt="Карта"></div>
             </section>
         </main>
         <footer class="main-footer">
-            <div class="container">
-                <section class="footer-hashtag">
-                    #VISITSEDONA
-                </section>
-                <section class="footer-social">
-                    <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
-                    <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
-                    <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
-                </section>
-                <section class="footer-copyright">
+            <section class="footer-hashtag">
+                #VISITSEDONA
+            </section>
+            <section class="footer-social">
+                <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+                <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+                <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+            </section>
+            <section class="footer-copyright">
                     Website by
-                    <a class="logo" href="https://htmlacademy.ru">HTML Academy</a>
-                </section>
-            </div>
+                <a class="logo" href="https://htmlacademy.ru">HTML Academy</a>
+            </section>
         </footer>
     </body>
 </html>
