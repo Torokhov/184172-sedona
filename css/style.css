@@ -72,7 +72,7 @@ h4 {
 /*Для разметки    */
     background: rgba(255, 255, 82, 0.2);
     
-    min-height: 1860px;
+/*    min-height: 1860px;*/
     width: 1200px;
     margin: 0 auto;
     padding: 0 30px;
@@ -216,40 +216,11 @@ h4 {
 /*sedona-hotels*/
 
 .hotels-header {
-/*Для разметки    */
-    background: rgba(255, 45, 82, 0.2);
-    
     min-height: 60px;
-    width: 1200px;
-    margin: 0 auto;
-    padding: 0 30px;
 }
 
 .hotels-header nav {
-    /*Для разметки    */
-    background: rgba(55, 0, 255, 0.2);
-/*    margin-bottom: 555px;*/
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-.hotels-header li {
-    display: inline-block;
-    padding: 0 10px;
-    margin-right: 140px;
-}
-
-.hotels-header li:last-child {
-    margin-right: 0;
-}
-
-.container-hotels {
-    background: rgba(255, 255, 82, 0.2);
-    
-    min-height: 750px;
-    width: 1200px;
-    margin: 0 auto;
-    padding: 0 30px;
+    margin-bottom: 0px;
 }
 
 .search-hotels {
