@@ -5,7 +5,7 @@ body {
     font-weight: normal;
     line-height: 26px;
     text-transform: uppercase;
-    background-color: white;
+    background-color: #f2f2f2;
 }
 
 h2 {
@@ -30,9 +30,15 @@ h4 {
 
 .main-header {
 /*Для разметки    */
-    background: rgba(255, 45, 82, 0.2);
+/*    background: rgba(255, 45, 82, 0.2);*/
+    background-image: url(/img/header-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
     
-    min-height: 750px;
+/*    background-image: url(/img/sedona-head.png);*/
+/*    background-repeat: no-repeat;*/
+/*    background-position: center;*/
+/*    min-height: 750px;*/
     width: 1200px;
     margin: 0 auto;
     padding: 0 30px;
@@ -40,7 +46,7 @@ h4 {
 
 .main-header nav {
     /*Для разметки    */
-    background: rgba(55, 0, 255, 0.2);
+    background-color: white;
     margin-bottom: 555px;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -84,6 +90,7 @@ h4 {
     width: 400px;
     background-color: #eeeeee;
     margin-right: -4px;
+    color: black;
 }
 
 .reasons-main h3 {
@@ -98,10 +105,14 @@ h4 {
     margin: 0 auto;
 }
 
+.illustrate {
+    color: white;
+    background-color: #81b3d2;
+}
+
 .reasons-feature {
-    /*Для разметки    */
-    background: rgba(255, 40, 10, 0.2);
-    
+    background-color: white;
+    color: black;
     display: inline-block;
     height: 325px;
     width: 400px;
@@ -153,6 +164,9 @@ h4 {
     margin-bottom: 45px;
 }
 
+.search {
+    background-color: white;
+}
 .search-form {
 /*    display: none;*/
     position: absolute;
@@ -181,7 +195,7 @@ h4 {
 } 
 
 .main-footer {
-    background: rgba(255, 40, 82, 0.2);
+    background-color: white;
     
     height: 40px;
     width: 1200px;
