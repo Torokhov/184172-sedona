@@ -76,7 +76,7 @@ h4 {
 
 .container {
 /*Для разметки    */
-    background: rgba(255, 255, 82, 0.2);
+    background-color: white;
     
 /*    min-height: 1860px;*/
     width: 1200px;
@@ -238,7 +238,9 @@ h4 {
 }
 
 .search-hotels {
-    background: rgba(255, 55, 82, 0.2);
+    background-image: url(/img/sedona-background-hotels.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
     
     height: 220px;
     padding: 30px 60px;
@@ -278,7 +280,7 @@ h4 {
 }
 
 .housing-result {
-    background: rgba(255, 0, 82, 0.2);
+    background-color: white;
     height: 90px;
     padding: 30px 60px;
 }
