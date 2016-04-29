@@ -74,9 +74,15 @@ h4 {
     margin: 0 auto;
 }
 
+.logo {
+    background-image: url(/img/sedona-logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .container {
 /*Для разметки    */
-    background-color: white;
+/*    background: rgba(255, 255, 82, 0.2);*/
     
 /*    min-height: 1860px;*/
     width: 1200px;
@@ -263,6 +269,7 @@ h4 {
 }
 
 .sort {
+    background-color: white;
     min-height: 30px;
     padding: 30px 60px
 }
