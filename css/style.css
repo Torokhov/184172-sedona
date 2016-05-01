@@ -31,14 +31,10 @@ h4 {
 .main-header {
 /*Для разметки    */
 /*    background: rgba(255, 45, 82, 0.2);*/
-    background-image: url(/img/header-background.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image:  url(/img/sedona-head.png),                                  url(/img/header-background.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, center 100px;
     
-/*    background-image: url(/img/sedona-head.png);*/
-/*    background-repeat: no-repeat;*/
-/*    background-position: center;*/
-/*    min-height: 750px;*/
     width: 1200px;
     margin: 0 auto;
     padding: 0 30px;
@@ -48,8 +44,8 @@ h4 {
     /*Для разметки    */
     background-color: white;
     margin-bottom: 540px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
 
 .main-header li {
@@ -75,6 +71,15 @@ h4 {
 }
 
 .logo {
+    position: relative;
+}
+
+.logo::after {
+    position: absolute;
+    height: 70px;
+    width: 140px;
+    content: " ";
+    top: -25px;
     background-image: url(/img/sedona-logo.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -297,13 +302,12 @@ h4 {
 
 .infrastructure {
     float: left;
-    width: 120px;
-    margin-right: 130px;
+    width: 250px;
 }
 .housing {
     float: left;
-    width: 160px;
-    margin-right: 330px;
+    width: 250px;
+    margin-right: 250px;
 }
 
 .price {
