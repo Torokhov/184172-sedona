@@ -33,8 +33,9 @@ h4 {
 /*    background: rgba(255, 45, 82, 0.2);*/
     background-image:  url(/img/sedona-head.png),                                  url(/img/header-background.jpg);
     background-repeat: no-repeat, no-repeat;
-    background-position: center, center 50px;
-    
+    background-position: center 130px, center 0px;
+    background-color: white;
+    height: 780px;
     width: 1200px;
     margin: 0 auto;
     padding: 0 30px;
@@ -43,7 +44,7 @@ h4 {
 .main-header nav {
     /*Для разметки    */
     background-color: white;
-    margin-bottom: 540px;
+    margin-bottom: 565px;
     padding-top: 1px;
     padding-bottom: 1px;
 }
@@ -61,7 +62,7 @@ h4 {
 .main-header h2 {
     width: 575px;
     margin: 0 auto;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .main-header p {
@@ -108,12 +109,12 @@ h4 {
 .reasons-main h3 {
     width: 140px;
     margin: 0 auto;
-    margin-top: 45px;
+    margin-top: 50px;
 }
 
 .reasons-main p {
     text-align: center;
-    width: 285px;
+    width: 290px;
     margin: 0 auto;
 }
 
