@@ -30,6 +30,84 @@ h4 {
     text-align: center;
 }
 
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-academy-logo {
+    width: 113px;
+    height: 39px;
+    background-position: -10px -10px;
+}
+
+.sprite-calendar-icon {
+    width: 21px;
+    height: 22px;
+    background-position: -143px -10px;
+}
+
+.sprite-check-icon {
+    width: 26px;
+    height: 22px;
+    background-position: -184px -10px;
+}
+
+.sprite-fc-icon {
+    width: 10px;
+    height: 19px;
+    background-position: -143px -52px;
+}
+
+.sprite-food-icon {
+    width: 74px;
+    height: 70px;
+    background-position: -10px -91px;
+}
+
+.sprite-housing-icon {
+    width: 75px;
+    height: 72px;
+    background-position: -104px -91px;
+}
+
+.sprite-mines-icon {
+    width: 12px;
+    height: 3px;
+    background-position: -173px -52px;
+}
+
+.sprite-plus-icon {
+    width: 11px;
+    height: 11px;
+    background-position: -205px -52px;
+}
+
+.sprite-present-icon {
+    width: 64px;
+    height: 76px;
+    background-position: -236px -10px;
+}
+
+.sprite-sedona-logo {
+    width: 138px;
+    height: 70px;
+    background-position: -10px -183px;
+}
+
+.sprite-tw-icon {
+    width: 17px;
+    height: 15px;
+    background-position: -199px -106px;
+}
+
+.sprite-yt-icon {
+    width: 20px;
+    height: 16px;
+    background-position: -236px -106px;
+}
+
 .main-header {
 /*Для разметки    */
 /*    background: rgba(255, 45, 82, 0.2);*/
@@ -118,8 +196,8 @@ h4 {
     content: " ";
     top: 0px;
     left: -35px;
-    background-image: url(../img/sedona-logo.png);
-    background-position: center;
+    background-image: url(../img/spritesheet.png);
+    background-position: -10px -183px;
     background-repeat: no-repeat;
 }
 
@@ -214,9 +292,9 @@ h4 {
     content: " ";
     width: 75px;
     height: 75px;
-    background-image: url(../img/housing-icon.png);
+    background-image: url(../img/spritesheet.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: -104px -91px;
 }
 
 .food::before {
@@ -226,9 +304,9 @@ h4 {
     content: " ";
     width: 75px;
     height: 75px;
-    background-image: url(../img/food-icon.png);
+    background-image: url(../img/spritesheet.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: -10px -91px;
 }
 
 .present::before {
@@ -238,9 +316,9 @@ h4 {
     content: " ";
     width: 75px;
     height: 75px;
-    background-image: url(../img/present-icon.png);
+    background-image: url(../img/spritesheet.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: -236px -10px;
 }
 
 .reasons-feature p {
@@ -376,12 +454,9 @@ h4 {
 }
 /*sedona-hotels*/
 
-.hotels-header {
-    min-height: 60px;
-}
-
-.hotels-header nav {
-    margin-bottom: 0px;
+.hotels .main-header {
+    background-image: none;
+    height: 60px;
 }
 
 .search-hotels {
