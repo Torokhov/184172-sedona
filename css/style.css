@@ -375,6 +375,7 @@ h4 {
     position: relative;
     background-color: white;
     padding-top: 1px;
+    margin-bottom: 480px;
 }
 .search-form {
 /*    display: none;*/
@@ -402,8 +403,12 @@ h4 {
     padding-bottom: 32px;
 } 
 
-.map img {
-/*    margin-bottom: -10px;*/
+.map {
+    float: left;
+    min-height: 594px;
+    background-image: url(../img/map.jpg);
+    background-repeat: no-repeat;
+    background-position: -40px -155px;
 }
 
 .main-footer {
