@@ -95,6 +95,14 @@ h4 {
     padding: 15px 0;
 }
 
+.main-header a:hover {
+    color: #81b3d2;
+}
+
+.main-header a:active {
+    color: #cacaca;
+}
+
 .main-header ul {
     margin: 0;
     padding: 0;
@@ -418,8 +426,16 @@ h4 {
     padding: 13px 10px;
 }
 
-.social-btn span {
+.social-btn:hover {
+    background-color: #669ec0;
+}
 
+.social-btn:active {
+    background-color: #5496bd;
+}
+
+.social-btn span:active {
+    opacity: 0.6;
 }
 
 .footer-copyright {
@@ -446,6 +462,18 @@ h4 {
     height: 39px;
     background-repeat: no-repeat;
     background-position: -10px -10px;
+}
+
+.academy-logo:hover::after {
+    background-image: url(../img/spritesheet.png);
+    background-repeat: no-repeat;
+    background-position: -10px -128px;
+}
+
+.academy-logo:active::after {
+    background-image: url(../img/spritesheet.png);
+    background-repeat: no-repeat;
+    background-position: -10px -69px;
 }
 /*sedona-hotels*/
 
