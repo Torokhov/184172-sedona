@@ -801,6 +801,7 @@ h4 {
     background-color: #766357;
 }
 .rate {
+    position: relative;
     float: right;
 /*    height: 30px;*/
     width: 110px;
@@ -810,4 +811,34 @@ h4 {
     margin-right: 12px;
     vertical-align: middle;
     padding-top: 5px;
+}
+
+.rate-four::before {
+    content: "\2605" "\2605" "\2605" "\2605";
+    position: absolute;
+    top: -65px;
+    left: 30px;
+    font-size: 23px;
+    line-height: 20px;
+    color: #81b3d2;
+}
+
+.rate-two::before {
+    content: "\2605" "\2605";
+    position: absolute;
+    top: -65px;
+    left: 70px;
+    font-size: 23px;
+    line-height: 20px;
+    color: #81b3d2;
+}
+
+.rate-three::before {
+    content: "\2605" "\2605" "\2605";
+    position: absolute;
+    top: -65px;
+    left: 50px;
+    font-size: 23px;
+    line-height: 20px;
+    color: #81b3d2;
 }
