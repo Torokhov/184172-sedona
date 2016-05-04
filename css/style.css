@@ -534,7 +534,7 @@ h4 {
     color: black;
     margin-top: 5px;
     margin-left: 45px;
-} 
+}
 
 .sort a {
     display: inline-block;
@@ -545,10 +545,6 @@ h4 {
     margin-top: 5px;
     text-decoration: none;
     border-bottom: 1px dotted #81b3d2;
-}
-
-.sort .active {
-    color: #81b3d2;
 }
 
 .sort a:hover {
@@ -574,7 +570,31 @@ h4 {
 
 
 .sort a:nth-child(6) {
-    margin-left: 350px;
+    margin-left: 443px;
+}
+
+.sort .arrow {
+    padding: 0;
+    border: none;
+    font-size: 23px;
+    line-height: 20px;
+/*    width: 15px;*/
+/*    height: 15px;*/
+    margin-top: -5px;
+    margin-right: 5px;
+    color: #cccccc;
+}
+
+.sort .arrow:hover {
+    color: black;
+}
+
+.sort .arrow:active {
+    color: #81b3d2;
+} 
+
+.sort .active {
+    color: #81b3d2;
 }
 
 .housing-result {
@@ -612,10 +632,26 @@ h4 {
     width: 270px;
 }
 
-.housing-describe h2 {
+.housing-describe a {
+    display: block;
     text-align: left;
     margin: 0;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    color: black;
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 26px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.housing-describe a:hover {
+    color: #81b3d2;
+}
+
+.housing-describe a:active {
+    color: #cacaca;
 }
 
 .housing-type {
@@ -633,29 +669,26 @@ h4 {
     margin-bottom: 15px;
 }
 
-.housing-describe a {
+.housing-describe .more,
+.housing-describe .reserve {
     display: inline-block;
     vertical-align: top;
     color: white;
-    font-family: "PT Sans", "Arial", sans-serif;
     font-size: 14px;
-    font-weight: bold;
     line-height: 21px;
-    text-decoration: none;
-    text-transform: uppercase;
     padding: 3px 17px;
 }
 
-.more {
+.housing-describe .more {
     background-color: #81b3d2;
     margin-right: 4px;
 }
 
-.more:hover {
+.housing-describe .more:hover {
     background-color: #669ec0;
 }
 
-.reserve:hover {
+.housing-describe .reserve:hover {
     background-color: #604e43;
 }
 
@@ -673,7 +706,7 @@ h4 {
     width: 110px;
     background-color: #f2f2f2;
     text-align: center;
-    margin-top: 65px;
+    margin-top: 60px;
     margin-right: 12px;
     vertical-align: middle;
     padding-top: 5px;
