@@ -65,9 +65,8 @@ h4 {
 .icon-star::before { content: "\2605"; } /* "★" */
 .icon-check-off::before { content: "\2610"; } /* "☐" */
 .icon-check-on::before { content: "\2611"; } /* "☑" */
-.icon-calendar::before { content: "\e800"; } /* "" */
-.icon-plus::before { content: "\e801"; } /* "" */
-.icon-minus::before { content: "\e802"; } /* "" */
+
+
 .icon-youtube::before { content: "\f39e"; } /* "" */
 
 .main-header {
@@ -362,11 +361,33 @@ h4 {
     line-height: 26px;
 }
 
+.date-block {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.icon-calendar::before { 
+    content: "\e800";
+    position: absolute;
+    top: 5px;
+    left: 425px;
+    font-size: 21px;
+    line-height: 26px;
+    color: #c2c2c2;
+}
+
+.icon-calendar:hover::before { 
+    color: black;
+}
+
+.icon-calendar:active::before { 
+    color: #81b3d2;
+}
+
 .date-arrival,
 .date-depart {
     float: right;
     width: 333px;
-    margin-bottom: 30px;
     padding-top: 5px;
     margin-right: 3px;
     padding-bottom: 5px;
@@ -381,20 +402,27 @@ h4 {
     background-color: #ebebeb;
 }
 
+.date-arrival:focus,
+.date-depart:focus {
+    background-color: white;
+    border: none;
+}
+
 .date-arrival-lbl,
 .date-depart-lbl {
     float: left;
     margin-top: 5px;
-    margin-bottom: 35px;
     margin-left: 3px;
 }
 
 .adults-block {
+    position: relative;
     float: left;
     margin-left: 1px;
 }
 
 .childrens-block {
+    position: relative;
     float: right;
     margin-right: 5px;
 }
@@ -410,6 +438,11 @@ h4 {
     height: 39px;
     border: none;
     background-color: #f2f2f2;
+}
+
+.plus-btn,
+.mines-btn {
+    font-size: 0px;
 }
 
 .adults-value-lbl,
@@ -431,8 +464,50 @@ h4 {
     text-align: center;
 }
 
-.mines-btn {
+.plus-btn {
     margin-right: 0;
+}
+
+.adults-block .icon-plus::before { 
+    content: "\e801"; 
+    position: absolute;
+    top: 14px;
+    left: 197px;
+    color: #c2c2c2;
+    
+} /* "" */
+.adults-block .icon-minus::before { 
+    content: "\e802";
+    position: absolute;
+    top: 14px;
+    left: 122px;
+    color: #c2c2c2;
+} /* "" */
+
+.childrens-block .icon-plus::before { 
+    content: "\e801"; 
+    position: absolute;
+    top: 14px;
+    left: 145px;
+    color: #c2c2c2;
+    
+} /* "" */
+.childrens-block .icon-minus::before { 
+    content: "\e802";
+    position: absolute;
+    top: 14px;
+    left: 75px;
+    color: #c2c2c2;
+} /* "" */
+
+.icon-minus:hover::before,
+.icon-plus:hover::before {  
+    color: black;
+}
+
+.icon-minus:active::before,
+.icon-plus:active::before { 
+    color: #81b3d2;
 }
 
 .send-btn {
@@ -841,4 +916,10 @@ h4 {
     font-size: 23px;
     line-height: 20px;
     color: #81b3d2;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
 }
