@@ -87,26 +87,32 @@
                     и мы покажем лучшие предложения гостиниц в Седоне</p>
                 <a class="search-btn" href="#">Поиск гостиницы в Седоне</a>
                 <form class="search-form" action="#" method="get">
-                    <label class="date-arrival-lbl" for="date_arrival">Дата заезда:</label>
-                    <input class="date-arrival" type="text" name="date_arrival" id="date_arrival" value="24 апреля 2016">
-                    <div class="calendar icon-calendar"></div>
-                    
-                    <label class="date-depart-lbl" for="date_depart">Дата выезда:</label>
-                    <input class="date-depart" type="text" name="date_depart" id="date_depart" value="4 июля 2016">
-                    <div class="calendar icon-calendar"></div>
-                    
+                    <div class="date-block clearfix">
+                        <label class="date-arrival-lbl" for="date_arrival">Дата заезда:</label>
+                        <input class="date-arrival" type="text" name="date_arrival" id="date_arrival" value="24 апреля 2016">
+                        <span class="icon-calendar"></span>
+                    </div>
+                    <div class="date-block icon-calendar clearfix">
+                        <label class="date-depart-lbl" for="date_depart">Дата выезда:</label>
+                        <input class="date-depart" type="text" name="date_depart" id="date_depart" value="4 июля 2016">
+                        <span class="icon-calendar"></span>
+                    </div>
                     <div class="adults-block">
                         <label class="adults-value-lbl" for="adults">Взрослые:</label>
-                        <input class="plus-btn" type="button" value="-">
+                        <input class="mines-btn" type="button" value="-">
+                        <span class="icon-minus"></span>
                         <input class="adults-value" type="text" id="adults" name="adults" value="2">
-                        <input class="mines-btn" type="button" value="+">
+                        <span class="icon-plus"></span>
+                        <input class="plus-btn" type="button" value="+">
                     </div>
                     
                     <div class="childrens-block">
                         <label class="childrens-value-lbl" for="childrens">Дети:</label>
-                        <input class="plus-btn" type="button" value="-">
-                        <input class="childrens-value" type="text" id="childrens" name="childrens" value="2">
-                        <input class="mines-btn" type="button" value="+">
+                        <input class="mines-btn" type="button" value="-">
+                        <span class="icon-minus"></span>
+                        <input class="childrens-value" type="text" id="childrens" name="childrens" value="0">
+                        <span class="icon-plus"></span>
+                        <input class="plus-btn" type="button" value="+">
                     </div>
                     <input class="send-btn" type="submit" value="Найти">
                 </form>
