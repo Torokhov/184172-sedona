@@ -354,8 +354,108 @@ h4 {
     left: 318px;
     background-color: white;
     width: 465px;
-    height: 295px;
-    padding: 50px 50px;
+    height: 285px;
+    padding: 55px 50px;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 26px;
+}
+
+.date-arrival,
+.date-depart {
+    float: right;
+    width: 333px;
+    margin-bottom: 30px;
+    padding-top: 5px;
+    margin-right: 3px;
+    padding-bottom: 5px;
+    padding-left: 13px;
+    text-transform: uppercase;
+    border: none;
+    background-color: #f2f2f2;
+}
+
+.date-arrival:hover,
+.date-depart:hover {
+    background-color: #ebebeb;
+}
+
+.date-arrival-lbl,
+.date-depart-lbl {
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 35px;
+    margin-left: 3px;
+}
+
+.adults-block {
+    float: left;
+    margin-left: 1px;
+}
+
+.childrens-block {
+    float: right;
+    margin-right: 5px;
+}
+
+.plus-btn,
+.mines-btn,
+.adults-value,
+.childrens-value {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: -4px;
+    width: 37px;   
+    height: 39px;
+    border: none;
+    background-color: #f2f2f2;
+}
+
+.adults-value-lbl,
+.childrens-value-lbl {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 39px;
+    margin-top: 9px;
+}
+
+.childrens-value-lbl {
+    margin-right: 23px;
+}
+
+
+.adults-value,
+.childrens-value {
+    height: 37px;
+    text-align: center;
+}
+
+.mines-btn {
+    margin-right: 0;
+}
+
+.send-btn {
+/*    float: left;*/
+    margin-top: 55px;
+    margin-left: 2px;
+    padding: 16px 195px;
+    color: white;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 26px;
+    text-transform: uppercase;
+    background-color: #81b3d2;
+    border: none;
+}
+
+.send-btn:hover {
+    background-color: #669ec0;
+}
+
+.send-btn:active {
+    color: #94b9d2;
+    background-color: #5496bd;
 }
 
 .search-btn {
