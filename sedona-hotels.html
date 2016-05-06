@@ -31,52 +31,60 @@
         </header>
         <main class="container">
             <form class="search-hotels" action="#" method="get">
-                <section class="infrastructure">
+                <section class="feature-block">
                     <h3>Инфраструктура:</h3>
                     <ul>
                         <li>
                             <input id="pool" type="checkbox" name="pool" checked>
+                            <span class="icon-check"></span>
                             <label for="pool">Бассейн</label>
                         </li>
                         <li>
                             <input id="parking" type="checkbox" name="parking">
+                            <span class="icon-check"></span>
                             <label for="parking">Парковка</label>
                         </li>
                         <li>
                             <input id="wifi" type="checkbox" name="wifi">
+                            <span class="icon-check"></span>
                             <label for="wifi">WI-FI</label>
                         </li>
                     </ul>
                 </section>
-                <section class="housing">
+                <section class="feature-block">
                     <h3>Тип жилья:</h3>
                     <ul>
                         <li>
                             <input id="hotel" type="checkbox" name="hotel" checked>
+                            <span class="icon-check"></span>
                             <label for="hotel">Гостиница</label>
                         </li>
                         <li>
                             <input id="motel" type="checkbox" name="motel" checked>
+                            <span class="icon-check"></span>
                             <label for="motel">Мотель</label>
                         </li>
                         <li>
                             <input id="apartments" type="checkbox" name="apartments" checked>
+                            <span class="icon-check"></span>
                             <label for="apartments">Апартаменты</label>
                         </li>
                     </ul>
                 </section>
                 <section class="price">
                     <h3>Стоимость в сутки(&#8381):</h3>
-                    <label for="start-price">от</label> 
-                    <input type="text" id="start-price" name="start-price" value="0">
-                    <label for="end-price">до</label> 
-                    <input type="text" id="end-price" name="end-price" value="3000">
-                    <div class="range-controls">
-                        <div class="scale"><div class="bar"></div></div>
-                        <div class="toggle min-toggle"></div>
-                        <div class="toggle max-toggle"></div>
+                    <div class="price-controls">
+                        <label class="min-price">от <input type="text" name="min-price" value="0"></label>
+                        <label class="max-price">до <input type="text" name="max-price" value="3000"></label>
                     </div>
-                    <input type="submit" value="Показать">
+                    <div class="range-controls">
+                        <div class="scale">
+                            <div class="bar"></div>
+                        </div>
+                        <div class="range-toggle range-toggle-min"></div>
+                        <div class="range-toggle range-toggle-max"></div>
+                    </div>
+                    <button class="btn-transparent" type="submit">Показать</button>
                 </section>
             </form>
             <section class="search-results">
