@@ -63,8 +63,6 @@ h4 {
 .icon-up-dir::before { content: "\25b2"; } /* "▲" */
 .icon-down-dir::before { content: "\25bc"; } /* "▼" */
 .icon-star::before { content: "\2605"; } /* "★" */
-
-
 .icon-youtube::before { content: "\f39e"; } /* "" */
 
 .main-header {
@@ -189,7 +187,7 @@ h4 {
 .reasons-main {
     display: inline-block;
     vertical-align: top;
-    height: 255px;
+    min-height: 255px;
     width: 400px;
     background-color: #eeeeee;
     margin-right: -4px;
@@ -242,7 +240,7 @@ h4 {
     color: black;
     display: inline-block;
     vertical-align: top;
-    height: 330px;
+    min-height: 330px;
     width: 400px;
     margin-right: -4px;
 }
@@ -311,7 +309,7 @@ h4 {
 }
 .reasons-picture {
     margin: 0;
-    height: 255px;
+    min-height: 255px;
     width: 800px;
 }
 
@@ -357,7 +355,7 @@ h4 {
     left: 318px;
     background-color: white;
     width: 465px;
-    height: 285px;
+    min-height: 285px;
     padding: 55px 50px;
     color: black;
     font-size: 14px;
@@ -567,7 +565,7 @@ h4 {
 /*    position: absolute;*/
     background-color: white;
     
-    height: 40px;
+    min-height: 40px;
     width: 1200px;
     margin: 0 auto;
     padding-top: 39px;
@@ -675,7 +673,7 @@ h4 {
     background-position: center;
     color: white;
     
-    height: 162px;
+    min-height: 162px;
     padding: 28px 70px;
 }
 
@@ -739,7 +737,7 @@ h4 {
 .price-controls {
     position: relative;
     margin-left: 10px;
-    height: 32px;
+    min-height: 32px;
     width: 312px;
     margin-bottom: 20px;
     font-size: 0;
@@ -948,7 +946,7 @@ h4 {
 
 .housing-result {
     background-color: white;
-    height: 90px;
+    min-height: 90px;
     padding: 30px 60px;
     border-top: 1px solid #e5e5e5;
 /*    border-bottom: 1px solid #e5e5e5;*/
@@ -977,7 +975,7 @@ h4 {
 /*    background: rgba(255, 100, 200, 0.2);*/
     margin-top: -4px;
     float: left;
-    height: 94px;
+    min-height: 94px;
     width: 270px;
 }
 
