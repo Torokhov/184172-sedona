@@ -1,33 +1,33 @@
 body {
-    color: #b3b3b3;
     font-family: "PT Sans", "Arial", sans-serif;
     font-size: 14px;
     font-weight: normal;
     line-height: 21px;
     text-transform: uppercase;
     background-color: #f2f2f2;
+    color: #b3b3b3;
 }
 
 h2 {
-    color: black;
     font-size: 21px;
     line-height: 21px;
     font-weight: bold;
     text-align: center;
+    color: black;
 }
 
 h3 {
-    color: black;
     font-size: 21px;
     line-height: 21px;
     font-weight: bold;
     text-align: center;
+    color: black;
 }
 
 h4 {
-    color: #b3b3b3;
     font-size: 14px;
     text-align: center;
+    color: #b3b3b3;
 }
 
 @font-face {
@@ -66,29 +66,27 @@ h4 {
 .icon-youtube::before { content: "\f39e"; } /* "" */
 
 .main-header {
-/*Для разметки    */
-/*    background: rgba(255, 45, 82, 0.2);*/
+    min-height: 780px;
+    width: 1200px;
+    margin: 0 auto;
     background-color: #81b3d2;
     background-image:  url(../img/sedona-head.png),                                  url(../img/header-background.jpg);
     background-repeat: no-repeat, no-repeat;
     background-position: center 130px, center 0px;
-    min-height: 780px;
-    width: 1200px;
-    margin: 0 auto;
     box-shadow: 0 5px 10px black;
 }
 
 .main-header nav {
-    background-color: white;
     margin-bottom: 570px;
     padding: 0 70px;
+    background-color: white;
 }
 
 .main-header a {
     display: block;
+    padding: 15px 0;
     text-decoration: none;
     color: black;
-    padding: 15px 0;
 }
 
 .main-header a:hover {
@@ -106,8 +104,8 @@ h4 {
 .main-header ul {
     margin: 0;
     padding: 0;
-    list-style: none;
     font-size: 0;
+    list-style: none;
 }
 
 .main-header li {
@@ -151,9 +149,9 @@ h4 {
 }
 
 .main-header p {
-    text-align: center;
     width: 575px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .logo {
@@ -161,14 +159,14 @@ h4 {
 }
 
 .logo::after {
-    position: absolute;
-    height: 70px;
-    width: 140px;
     content: " ";
+    position: absolute;
     top: 0px;
     left: -35px;
+    height: 70px;
+    width: 140px;
     background-image: url(../img/spritesheet.png);
-   background-position: -10px -192px;
+    background-position: -10px -192px;
     background-repeat: no-repeat;
 }
 
@@ -186,12 +184,12 @@ h4 {
 
 .reasons-main {
     display: inline-block;
-    vertical-align: top;
     min-height: 255px;
     width: 400px;
-    background-color: #eeeeee;
     margin-right: -4px;
+    vertical-align: top;
     color: black;
+    background-color: #eeeeee;
 }
 
 .reasons-main h3 {
@@ -202,14 +200,14 @@ h4 {
 }
 
 .reasons-main h4 {
-    font-weight: normal;
     margin-bottom: 20px;
+    font-weight: normal;
 }
 
 .reasons-main p {
-    text-align: center;
     width: 280px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .illustrate {
@@ -225,24 +223,24 @@ h4 {
 }
 
 .illustrate h4 {
-    color: white;
     margin-top: 25px;
+    color: white;
 }
 
 .illustrate p {
-    text-align: center;
     width: 310px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .reasons-feature {
-    background-color: white;
-    color: black;
     display: inline-block;
-    vertical-align: top;
     min-height: 330px;
     width: 400px;
     margin-right: -4px;
+    vertical-align: top;
+    background-color: white;
+    color: black;
 }
 
 .reasons-feature h3 {
@@ -258,10 +256,10 @@ h4 {
 }
 
 .house::before {
+    content: " ";
     position: absolute;
     top: -100px;
     left: 30px;
-    content: " ";
     width: 75px;
     height: 75px;
     background-image: url(../img/spritesheet.png);
@@ -270,22 +268,22 @@ h4 {
 }
 
 .food::before {
+    content: " ";
     position: absolute;
     top: -100px;
     left: 30px;
-    content: " ";
     width: 75px;
     height: 75px;
     background-image: url(../img/spritesheet.png);
     background-repeat: no-repeat;
-   background-position: -143px -10px;
+    background-position: -143px -10px;
 }
 
 .present::before {
+    content: " ";
     position: absolute;
     top: -100px;
     left: 30px;
-    content: " ";
     width: 75px;
     height: 75px;
     background-image: url(../img/spritesheet.png);
@@ -294,18 +292,18 @@ h4 {
 }
 
 .reasons-feature p {
-    text-align: center;
     width: 285px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .reasons-illustrate {
     display: inline-block;
     height: 255px;
     width: 1200px;
-    background-color: #81b3d2;
     margin-right: -4px;
     padding: 0;
+    background-color: #81b3d2;
 }
 .reasons-picture {
     margin: 0;
@@ -327,26 +325,26 @@ h4 {
 }
 
 .search p {
-    text-align: center;
-    line-height: 24px;
-    color: black;
     width: 450px;
     margin: 0 auto;
     margin-bottom: 45px;
+    text-align: center;
+    line-height: 24px;
+    color: black;
 }
 
 .search h2 {
 /*    padding-top: 50px;*/
+    margin-top: 60px;
+    margin-bottom: 27px;
     font-size: 30px;
     line-height: 24px;
-    margin-top: 60px;
-    margin-bottom: 27px
 }
 
 .search {
     position: relative;
-    background-color: white;
     padding-top: 1px;
+    background-color: white;
 /*    margin-bottom: 480px;*/
 }
 @keyframes bounce {
@@ -364,17 +362,17 @@ h4 {
     }
 }
 .search-form {
-    display: none;
     position: absolute;
     left: 318px;
-    background-color: white;
+    display: none;
     width: 465px;
     min-height: 285px;
     padding: 55px 50px;
-    color: black;
     font-size: 14px;
     font-weight: bold;
     line-height: 26px;
+    color: black;
+    background-color: white;
     box-shadow: 0 10px 30px -5px black;
     
 /*    animation: bounce 0.6s;*/
@@ -458,10 +456,10 @@ h4 {
 .adults-value,
 .childrens-value {
     display: inline-block;
-    vertical-align: top;
     margin-right: -4px;
     width: 37px;   
     height: 39px;
+    vertical-align: top;
     border: none;
     background-color: #f2f2f2;
     outline: none;
@@ -475,9 +473,9 @@ h4 {
 .adults-value-lbl,
 .childrens-value-lbl {
     display: inline-block;
-    vertical-align: top;
     margin-right: 39px;
     margin-top: 9px;
+    vertical-align: top;
 }
 
 .childrens-value-lbl {
@@ -542,11 +540,11 @@ h4 {
     margin-top: 55px;
     margin-left: 2px;
     padding: 16px 195px;
-    color: white;
     font-size: 21px;
     font-weight: bold;
     line-height: 26px;
     text-transform: uppercase;
+    color: white;
     background-color: #81b3d2;
     border: none;
 }
@@ -562,18 +560,18 @@ h4 {
 
 .search-btn {
     display: block;
-    color: white;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    width: 565px;
+    margin: 0 auto;
     font-family: "PT Sans", "Arial", sans-serif;
     font-size: 21px;
     font-weight: bold;
     line-height: 26px;
-    text-decoration: none;
-    width: 565px;
-    margin: 0 auto;
-    background-color: #766357;
     text-align: center;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    text-decoration: none;
+    color: white;
+    background-color: #766357;
 } 
 
 .map {
@@ -586,13 +584,12 @@ h4 {
 
 .main-footer {
 /*    position: absolute;*/
-    background-color: white;
-    
     min-height: 40px;
     width: 1200px;
     margin: 0 auto;
     padding-top: 39px;
     padding-bottom: 51px;
+    background-color: white;
     box-shadow: 0 5px 10px black;
 }
 
@@ -619,15 +616,15 @@ h4 {
 
 .social-btn {
     display: inline-block;
-    vertical-align: top;
 /*    width: 47px;*/
 /*    height: 47px;*/
-    background-color: #81b3d2;
+    padding: 13px 10px;
     margin-right: 1px;
-    color: white;
+    vertical-align: top;
     font-size: 19px;
     text-align: center;
-    padding: 13px 10px;
+    color: white;
+    background-color: #81b3d2;
 }
 
 .social-btn:hover {
@@ -661,9 +658,9 @@ h4 {
     position: absolute;
     top: -25px;
     left: 5px;
-    background-image: url(../img/spritesheet.png);
     width: 113px;
     height: 39px;
+    background-image: url(../img/spritesheet.png);
     background-repeat: no-repeat;
     background-position: -10px -10px;
 }
@@ -691,29 +688,28 @@ h4 {
 }
 
 .search-hotels {
+    min-height: 162px;
+    padding: 28px 70px;
     background-color: #81b3d2;
     background-image: url(../img/sedona-background-hotels.jpg);
     background-repeat: no-repeat;
     background-position: center;
     color: white;
-    
-    min-height: 162px;
-    padding: 28px 70px;
 }
 
 .search-hotels h3 {
-    font-size: 16px;
-    line-height: 21px;
-    color: white;
-    text-align: left;
-    vertical-align: top;
     margin: 0;
     margin-bottom: 25px;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: left;
+    vertical-align: top;
+    color: white;
 }
 
 .search-hotels ul {
-    list-style: none;
     padding: 0;
+    list-style: none;
 }
 
 .search-hotels li {
@@ -721,8 +717,8 @@ h4 {
 }
 
 .feature-block label {
-    cursor: pointer;
     margin-left: 40px;
+    cursor: pointer;
 }
 
 .feature-block {
@@ -736,10 +732,10 @@ h4 {
     display: none;
 }
 
-.icon-check::before { 
+.icon-check::before {
+    content: "\2610";
     position: absolute;
-    left: -6px;
-    content: "\2610"; 
+    left: -6px; 
     font-size: 26px;
     line-height: 20px;
 } 
@@ -761,9 +757,9 @@ h4 {
 .price-controls {
     position: relative;
     margin-left: 10px;
+    margin-bottom: 20px;
     min-height: 32px;
     width: 312px;
-    margin-bottom: 20px;
     font-size: 0;
     border: 2px solid #ffffff;
     border-radius: 2px;
@@ -774,21 +770,17 @@ h4 {
     position: absolute;
     top: 50%;
     left: 50%;
-
     width: 2px;
     height: 22px;
-
     background: #ffffff;
     transform: translate(-50%, -50%);
 }
 
 .price-controls label {
     display: inline-block;
-
     font-size: 14px;
     line-height: 28px;
     vertical-align: top;
-
     cursor: pointer;
 }
 
@@ -805,10 +797,8 @@ h4 {
 .price-controls input {
     width: 50px;
     margin: 0;
-
     color: inherit;
     font: inherit;
-
     background: none;
     border: none;
     outline: none;
@@ -822,24 +812,20 @@ h4 {
 
 .range-controls .scale {
     height: 2px;
-
     background: rgba(255, 255, 255, 0.3);
 }
 
 .range-controls .bar {
     width: 80%;
     height: 2px;
-
     background: #ffffff;
 }
 
 .range-toggle {
     position: absolute;
     top: -9px;
-
     width: 4px;
     height: 4px;
-
     background: #ababab;
     border: 8px solid #ffffff;
     border-radius: 50%;
@@ -863,12 +849,10 @@ h4 {
     display: block;
     margin: 0 auto;
     padding: 6px 34px;
-
     font-size: 14px;
     line-height: 20px;
     color: #ffffff;
     text-transform: uppercase;
-
     background: transparent;
     border: 2px solid #ffffff;
     border-radius: 2px;
@@ -878,42 +862,41 @@ h4 {
 
 .btn-transparent:hover {
   color: #000000;
-
   background: #ffffff;
 }
 
 .sort {
-    background-color: white;
     min-height: 25px;
-    padding: 30px 60px
+    padding: 30px 60px;
+    background-color: white;
 }
 
 .sort b {
     display: inline-block;
+    margin-left: 10px;
     vertical-align: top;
     font-size: 21px;
     line-height: 26px;
     color: black;
-    margin-left: 10px;
 }
 
 .sort span {
     display: inline-block;
+    margin-top: 5px;
+    margin-left: 45px;
     vertical-align: top;
     font-size: 12px;
     line-height: 18px;
     color: black;
-    margin-top: 5px;
-    margin-left: 45px;
 }
 
 .sort a {
     display: inline-block;
+    margin-top: 5px;
     vertical-align: top;
     font-size: 12px;
     line-height: 18px;
     color: #b3b3b3;
-    margin-top: 5px;
     text-decoration: none;
     border-bottom: 1px dotted #81b3d2;
 }
@@ -946,14 +929,14 @@ h4 {
 
 .sort .arrow {
     padding: 0;
-    border: none;
+    margin-top: -5px;
+    margin-right: 5px;
     font-size: 23px;
     line-height: 20px;
 /*    width: 15px;*/
 /*    height: 15px;*/
-    margin-top: -5px;
-    margin-right: 5px;
     color: #cccccc;
+    border: none;
 }
 
 .sort .arrow:hover {
@@ -969,9 +952,9 @@ h4 {
 }
 
 .housing-result {
-    background-color: white;
     min-height: 90px;
     padding: 30px 60px;
+    background-color: white;
     border-top: 1px solid #e5e5e5;
 /*    border-bottom: 1px solid #e5e5e5;*/
 }
@@ -985,34 +968,32 @@ h4 {
 }
 
 .housing-result figure {
-    background: rgba(255, 100, 2, 0.2);
-    
     float: left;
     margin: 0;
     margin-left: 10px;
+    margin-right: 30px;
     height: 90px;
     width: 135px;
-    margin-right: 30px;
 }
 
 .housing-describe {
 /*    background: rgba(255, 100, 200, 0.2);*/
-    margin-top: -4px;
     float: left;
+    margin-top: -4px;
     min-height: 94px;
     width: 270px;
 }
 
 .housing-describe a {
     display: block;
-    text-align: left;
     margin: 0;
     margin-bottom: 5px;
-    color: black;
     font-family: "PT Sans", "Arial", sans-serif;
     font-size: 21px;
     font-weight: bold;
     line-height: 26px;
+    color: black;
+    text-align: left;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -1027,32 +1008,31 @@ h4 {
 
 .housing-type {
     display: inline-block;
-    vertical-align: top;
     width: 110px;
     margin-right: 4px;
-    
+    vertical-align: top;
 }
 
 .housing-price {
     display: inline-block;
-    vertical-align: top;
     width: 145px;
     margin-bottom: 15px;
+    vertical-align: top;
 }
 
 .housing-describe .more,
 .housing-describe .reserve {
     display: inline-block;
-    vertical-align: top;
-    color: white;
+    padding: 3px 17px;
     font-size: 14px;
     line-height: 21px;
-    padding: 3px 17px;
+    vertical-align: top;
+    color: white;
 }
 
 .housing-describe .more {
-    background-color: #81b3d2;
     margin-right: 4px;
+    background-color: #81b3d2;
 }
 
 .housing-describe .more:hover {
@@ -1076,14 +1056,13 @@ h4 {
 .rate {
     position: relative;
     float: right;
-/*    height: 30px;*/
-    width: 110px;
-    background-color: #f2f2f2;
-    text-align: center;
     margin-top: 60px;
     margin-right: 12px;
-    vertical-align: middle;
     padding-top: 5px;
+    width: 110px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #f2f2f2;
 }
 
 .rate-four::before {
