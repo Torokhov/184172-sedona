@@ -349,8 +349,22 @@ h4 {
     padding-top: 1px;
 /*    margin-bottom: 480px;*/
 }
+@keyframes bounce {
+    0% {
+        transform: translateY(-3000px);
+    }
+    70% {
+        transform: translateY(30px);
+    }
+    90% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
 .search-form {
-/*    display: none;*/
+    display: none;
     position: absolute;
     left: 318px;
     background-color: white;
@@ -362,7 +376,16 @@ h4 {
     font-weight: bold;
     line-height: 26px;
     box-shadow: 0 10px 30px -5px black;
+    
+/*    animation: bounce 0.6s;*/
 }
+
+.search-form-show {
+    display: block;
+    animation: bounce 0.6s;
+}
+
+
 
 .date-block {
     position: relative;
