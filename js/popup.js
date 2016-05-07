@@ -6,11 +6,14 @@ var adult_plus_btn =document.querySelector(".adults-block .icon-plus");
 var adult_mines_btn =document.querySelector(".adults-block .icon-minus");
 var children_plus_btn =document.querySelector(".childrens-block .icon-plus");
 var children_mines_btn =document.querySelector(".childrens-block .icon-minus");
-
             
 link.addEventListener("click", function (event) {
     event.preventDefault();
-    popup.classList.add("search-form-show");
+    if (popup.classList.contains("search-form-show")) {
+        popup.classList.remove("search-form-show");
+    } else {
+       popup.classList.add("search-form-show");
+    }
 });
             
 window.addEventListener("keydown", function (event) {
