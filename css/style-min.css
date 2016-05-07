@@ -86,8 +86,8 @@ h4{font-size:14px;text-align:center;color:#b3b3b3}
 .send-btn:hover{background-color:#669ec0}
 .send-btn:active{color:#94b9d2;background-color:#5496bd}
 .search-btn{display:block;padding-top:32px;padding-bottom:32px;width:565px;margin:0 auto;font-family:"PT Sans","Arial",sans-serif;font-size:21px;font-weight:bold;line-height:26px;text-align:center;text-decoration:none;color:white;background-color:#766357}
-.map{min-height:470px;width:1200px;background-image:url(../img/map.jpg);background-repeat:no-repeat;background-position:-40px -155px}
-.main-footer{min-height:40px;width:1200px;margin:0 auto;padding-top:39px;padding-bottom:51px;background-color:white;box-shadow:0 5px 10px black}
+.map{min-height:450px;width:1200px;background-image:url(../img/map.jpg);background-repeat:no-repeat;background-position:-40px -155px}
+.main-footer{min-height:40px;width:1200px;margin:0 auto;padding-top:35px;padding-bottom:51px;background-color:white;box-shadow:0 5px 10px black}
 .footer-hashtag{float:left;width:170px;height:50px;margin-left:115px;margin-right:239px;padding-top:10px;text-align:center;font-weight:bold;font-size:21px;line-height:26px;color:black}
 .footer-social{float:left;width:170px;height:50px}
 .social-btn{display:inline-block;padding:13px 10px;margin-right:1px;vertical-align:top;font-size:19px;text-align:center;color:white;background-color:#81b3d2}
