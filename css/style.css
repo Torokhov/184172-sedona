@@ -64,7 +64,7 @@ h4 {
 .shadow {
     width: 1200px;
     margin: 0 auto;
-    box-shadow: 0 0 15px black;
+    box-shadow: 0 0 15px -2px black;
 }
 .main-header {
     position: relative;
@@ -329,7 +329,7 @@ h4 {
     position: relative;
     padding-top: 1px;
     background-color: white;
-    margin-bottom: 470px;
+    margin-bottom: 471px;
 }
 .search h2 {
 /*    padding-top: 50px;*/
