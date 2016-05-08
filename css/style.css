@@ -27,7 +27,7 @@ h3 {
 h4 {
     font-size: 14px;
     text-align: center;
-    color: #b3b3b3;
+    color: black;
 }
 
 @font-face {
@@ -579,13 +579,14 @@ h4 {
 
 .map {
 /*    float: left;*/
+/*    display: none;*/
     position: absolute;
     height: 600px;
     width: 1200px;
     background-image: url(../img/map.jpg);
     background-repeat: no-repeat;
     background-position: -40px -155px;
-    z-index: 0;
+    z-index: -1;
 }
 
 .main-footer {
@@ -595,8 +596,8 @@ h4 {
     margin: 0 auto;
     padding-top: 36px;
     padding-bottom: 51px;
-    background-color: white;
-    opacity: 0.8;
+    background-color: rgba(255,255,255,0.9);
+    z-index: 1;
 }
 
 .footer-hashtag {
@@ -1131,6 +1132,10 @@ h4 {
     text-align: center;
     background-color: #f2f2f2;
     color: black;
+}
+
+.hotels .main-footer {
+    background-color: white;
 }
 
 .clearfix::after {
