@@ -149,6 +149,7 @@ h4 {
     padding-top: 57px;
     background-color: white;
 }
+
 .main-header h2 {
     width: 575px;
     margin: 0 auto;
@@ -391,7 +392,7 @@ h4 {
     line-height: 26px;
     color: black;
     background-color: white;
-    box-shadow: 0 0px 15px black;  
+    box-shadow: 0 7px 30px -5px black;  
     z-index: 1;
 /*    animation: bounce 0.6s;*/
 }
@@ -532,7 +533,6 @@ h4 {
     top: 14px;
     left: 150px;
     color: #c2c2c2;
-    
 }
 
 .childrens-block .icon-minus::before { 
@@ -915,6 +915,7 @@ h4 {
 .sort .sort-ask-des {
     margin-left: 450px;
 }
+
 .sort-criteria li {
     display: inline-block;
     margin-right: 30px;
