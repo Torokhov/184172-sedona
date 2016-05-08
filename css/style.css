@@ -751,6 +751,7 @@ h4 {
 
 .feature-block input[type="checkbox"]:checked + .icon-check::before { 
     content: "\2611"; 
+    left: -4px; 
 }  
 
 .feature-block input[type="checkbox"]:disabled + .icon-check::before { 
@@ -1098,52 +1099,36 @@ h4 {
 .reserve {
     background-color: #766357;
 }
+
 .rate {
-    position: relative;
     float: right;
-    margin-top: 60px;
-    margin-right: 12px;
-    padding-top: 5px;
-    width: 110px;
+    margin-top: -4px;
+    margin-right: 15px;
+}
+
+.stars {
+    margin-bottom: 47px;
+    text-align: right;
+}
+
+.icon-star {
+    display: inline-block;
+    margin-right: -7px;
+    vertical-align: top;
+}
+
+.icon-star::before {
+    content: "\2605";
+    font-size: 19px;
+    line-height: 21px;
+    color: #81b3d2;
+}
+
+.rate-value {
+    padding: 2px 13px;
     text-align: center;
-    vertical-align: middle;
     background-color: #f2f2f2;
-}
-
-.rate-four::before {
-    content: "\2605 " "\2605 " "\2605 " "\2605 ";
-    position: absolute;
-    top: -63px;
-    left: 20px;
-    font-size: 23px;
-    text-align: justify;
-    white-space: pre;
-    line-height: 20px;
-    color: #81b3d2;
-}
-
-.rate-two::before {
-    content: "\2605 " "\2605 ";
-    position: absolute;
-    top: -63px;
-    left: 65px;
-    font-size: 23px;
-    text-align: justify;
-    white-space: pre;
-    line-height: 20px;
-    color: #81b3d2;
-}
-
-.rate-three::before {
-    content: "\2605 ""\2605 ""\2605 ";
-    position: absolute;
-    top: -63px;
-    left: 43px;
-    font-size: 23px;
-    text-align: justify;
-    white-space: pre;
-    line-height: 20px;
-    color: #81b3d2;
+    color: black;
 }
 
 .clearfix::after {
