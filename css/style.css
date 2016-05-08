@@ -934,6 +934,7 @@ h4 {
     top: -2px;
     left: 10px;
 } /* "▲" */
+
 .icon-down-dir::before { 
     content: "\25bc"; 
     position: absolute;
